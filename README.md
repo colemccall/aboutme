@@ -135,19 +135,22 @@ During the Spring 2021 semester, I signed up for NNU's COMP4220 Artificial Intel
 
 
 ### Playing Connect Four with AI
-**Project Description:**
+**Project Description:** Using the negamax algorithm, I created a bot/agent in C++ that can play Connect Four, against either another bot or a human.
+
+Each student made there own bot, and competed 1 vs 1 with every other student. To improve my bot's chances of winning, I implemented extra features in addition to an adverserial search algorithm, such as alpha-beta pruning, creating a custom heuristic that ranks and prioritizes certain columns, a win first function that always makes the winning move if it's available, and prevent loss function that always blocks an opponents game winning move.
 
 **Code:** [https://github.com/colemccall/Connect_Four](https://github.com/colemccall/Connect_Four)
 
 
+
 ### Cracking the Code with Genetic Algorithms
-**Project Description:**
+**Project Description:** I created a program in C++ that can read in a ciphered message and decipher it using a genetic algorithm.
 
 **Code:** [https://github.com/colemccall/Genetic_Algorithm_Cipher_Buster](https://github.com/colemccall/Genetic_Algorithm_Cipher_Buster)
 
 
 ### Finding the Best Path on a Map
-**Project Description:**
+**Project Description:** I created that calculates the best path between two points, given a starting point and ending point on a map. The program can calculate the path based on time, money, or distance, depending on what the user considers cost.
 
 **Code:** [https://github.com/colemccall/Pathfinder](https://github.com/colemccall/Pathfinder)
 
@@ -158,10 +161,14 @@ During the Spring 2021 semester, I signed up for NNU's COMP4220 Artificial Intel
 **Code:** [https://github.com/colemccall/NNU_Gen_Ed_Data_Science](https://github.com/colemccall/NNU_Gen_Ed_Data_Science)
 
 
-## Computer Vision for Rocksat-X 2022
-**Project Description:** Object detection with a MaskR-CNN
+## Computer Vision for Rocksat-X 2021
+**Project Description:** As part of Northwest Nazarene University's Rocksat-X 2021 Project, two robotic arms were created, mounted onboard a sounding rocket, launched into space by NASA, and attempted to throw and catch a ball in space using Deep Meta Reinforcement Learning (DMRL). 
+
+My role involved training and implementing a MaskR-CNN (using TensorFlow) for the robot to detect objects in motion.
+
 
 **Code:** [https://github.com/colemccall/RockSatX2022_Object_Detection](https://github.com/colemccall/RockSatX2022_Object_Detection)
+**Project**: [https://github.com/aborger/Marsha](https://github.com/aborger/Marsha)
 
 
 

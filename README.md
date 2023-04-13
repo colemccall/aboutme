@@ -9,7 +9,6 @@ Outside of the classroom, I have worked as a research assistant for over 2 years
 Ever since I began programming, I have discovered that I am someone that learns through doing, not just by watching and observing. As such, I have completed several projects during my college education, along with personal side projects and research projects that I have enjoyed. I have chosen to share a few of these projects here below.
 
 
-
 # Research
 Over the past few years, the size and severity of wildland forest fires have continued to increase, causing more damage and destruction around the world. New methods have been developed to utilize machine learning algorithms to map forest fire burn extent and fire severity using aerial imagery. Algorithms such as the Support Vector Machine (SVM) can be used to classify pixels as either black ash, white ash, or unburned, while the Mask Region-Based Convolutional Neural Network (MaskR-CNN) can be used to find and map tree objects. The results from these classifications can be used to help local wildland fire managers assess the burned area and create a recovery plan.
  
@@ -94,7 +93,7 @@ A separate manuscript for mapping burn extent from PlanetScope imagery is expect
 
 
 **Responsibilties/Impact:**
-- Create an Iterative Dichotomiser 3 (ID3) Decision Tree program in C#
+- Created an Iterative Dichotomiser 3 (ID3) Decision Tree program in C#
 - Using the ID3, performed entropy analysis on each of the spectral bands in Worldview2, determining which bands are most useful for mapping burn extent
 - Used Principle Component Analysis (PCA), to reduce the spectral dimensionality (from 8 bands to 3 bands)
 - Mapped burn extent using a variety of transformed Worldview2 imagery sources:
@@ -110,6 +109,7 @@ A separate manuscript for mapping burn extent from PlanetScope imagery is expect
 
 ## Unsupervised Wildfire Change Detection
 **Project Description:**
+
  In the summer of 2022, NNU’s summer research team assisted in the FDL-US 2022 Wildfire Challenge, at Frontier Development Lab (FDL). The wildfire research team was given a challenge by the U.S. Department of Energy to determine if “... ML-enhanced tools can be used to prevent fires from starting or new fires from combining to create mega-fires". The FDL-US 2022 Wildfire team wanted to use machine learning algorithms to map burn extent from satellite imagery. However, this team wanted to use self-supervised learning instead of supervised learning methods that require large amounts of training data. 
  
  Additionally, the wildfire team partnered with Planet, who gave the team access to ~3m spatial resolution PlanetScope imagery, with near-daily updates, which gave the team even more opportunities. This project aimed to use the PlanetScope imagery to perform daily wildfire change detection, which could then be used to predict wildfire changes in simulation. An advanced deep learning technique called contrastive learning was used to perform unsupervised change detection, which resulted in detecting burn area change. The results of this project were published in “Unsupervised Wildfire Change Detection based on Contrastive Learning”, which can be found [here](https://arxiv.org/abs/2211.14654)
@@ -156,7 +156,7 @@ Each student made there own bot, and competed 1 vs 1 with every other student. T
 
 
 ## General Education Data Science
-**Project Description:** During my Senior year, I started in a project in the Advanced Database Management course, which turned in a part-time project that I am still consulting/advising on. Based on course and student data stored in spreadsheets, our team of 3 was tasked with cleaning, storing, and finding patterns in the data, which was used to provide insights into which general education courses are being properly assessed, and how to predict this information in the future.
+**Project Description:** During my Senior year, I started a project in the Advanced Database Management course, which turned in a part-time project that I am still consulting/advising on. Based on course and student data stored in spreadsheets, our team of 3 was tasked with cleaning, storing, and finding patterns in the data, which was used to provide insights into which general education courses are being properly assessed, and how to predict this information in the future.
 
 **Code:** [https://github.com/colemccall/NNU_Gen_Ed_Data_Science](https://github.com/colemccall/NNU_Gen_Ed_Data_Science)
 
@@ -168,6 +168,8 @@ My role involved training and implementing a MaskR-CNN (using TensorFlow) for th
 
 
 **Code:** [https://github.com/colemccall/RockSatX2022_Object_Detection](https://github.com/colemccall/RockSatX2022_Object_Detection)
+
+
 **Project**: [https://github.com/aborger/Marsha](https://github.com/aborger/Marsha)
 
 

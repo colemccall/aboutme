@@ -57,9 +57,7 @@ Based on hand-drawn validation data, the accuracy increased from 59.5% to 86.7%.
 
 
 ## Evaluating the Impacts of Spatial and Spectral Resolutions in using Satellite Imagery for Classification
-**Project Description:** 
-
-Even though hyperspatial drone imagery can accurately map burn extent, it can be difficult and time-consuming to collect/acquire drone imagery. Additionally, mapping the burn extent involves utilizing an SVM classifier that must be trained to the image, a MaskR-CNN that must be trained to detect trees, and an additional program to enhance the burn extent created by the SVM classifier. For these reasons, the FireMAP research team began to study how substituting 5cm spatial resolution drone imagery for lower 1.5 to 3m spatial resolution satellite imagery affected the accuracy of mapping burn extent. 
+**Project Description:** Even though hyperspatial drone imagery can accurately map burn extent, it can be difficult and time-consuming to collect/acquire drone imagery. Additionally, mapping the burn extent involves utilizing an SVM classifier that must be trained to the image, a MaskR-CNN that must be trained to detect trees, and an additional program to enhance the burn extent created by the SVM classifier. For these reasons, the FireMAP research team began to study how substituting 5cm spatial resolution drone imagery for lower 1.5 to 3m spatial resolution satellite imagery affected the accuracy of mapping burn extent. 
 
 
 ![](images/drone_mesa.png)

@@ -106,12 +106,12 @@ A separate manuscript for mapping burn extent from PlanetScope imagery is expect
 
 
 ## Unsupervised Wildfire Change Detection
-**Project Description:**
+**Code:** [https://github.com/spaceml-org/FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires)
 
- In the summer of 2022, NNU’s summer research team assisted in the FDL-US 2022 Wildfire Challenge, at Frontier Development Lab (FDL). The wildfire research team was given a challenge by the U.S. Department of Energy to determine if “... ML-enhanced tools can be used to prevent fires from starting or new fires from combining to create mega-fires". The FDL-US 2022 Wildfire team wanted to use machine learning algorithms to map burn extent from satellite imagery. However, this team wanted to use self-supervised learning instead of supervised learning methods that require large amounts of training data. 
+
+**Project Description:** In the summer of 2022, NNU’s summer research team assisted in the FDL-US 2022 Wildfire Challenge, at Frontier Development Lab (FDL). The wildfire research team was given a challenge by the U.S. Department of Energy to determine if “... ML-enhanced tools can be used to prevent fires from starting or new fires from combining to create mega-fires". The FDL-US 2022 Wildfire team wanted to use machine learning algorithms to map burn extent from satellite imagery. However, this team wanted to use self-supervised learning instead of supervised learning methods that require large amounts of training data. 
  
  Additionally, the wildfire team partnered with Planet, who gave the team access to ~3m spatial resolution PlanetScope imagery, with near-daily updates, which gave the team even more opportunities. This project aimed to use the PlanetScope imagery to perform daily wildfire change detection, which could then be used to predict wildfire changes in simulation. An advanced deep learning technique called contrastive learning was used to perform unsupervised change detection, which resulted in detecting burn area change. The results of this project were published in “Unsupervised Wildfire Change Detection based on Contrastive Learning”, which can be found [here](https://arxiv.org/abs/2211.14654)
-
 
 
  **Responsibilties/Impact:**

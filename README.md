@@ -175,4 +175,4 @@ My role involved training and implementing a MaskR-CNN (using TensorFlow) for th
 # Links
 - [LinkedIn](https://www.linkedin.com/in/colemccall/)
 - [GitHub](https://github.com/colemccall)
-- [Resume](Cole%20McCall%20April%202023%20Resume.pdf)
+- [Resume](reports/Cole%20McCall%20April%201%20Page%20Resume.pdf)
